@@ -1,2 +1,2 @@
 # frontend
-front-end's projects
+front-end's project
