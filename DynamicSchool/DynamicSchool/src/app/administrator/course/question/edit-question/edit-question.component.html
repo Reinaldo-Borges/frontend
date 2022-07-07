@@ -1,0 +1,20 @@
+
+
+<form [formGroup]="form">
+    <mat-card class="example-card">    
+        <mat-card-subtitle styel="background-color: blue">Edit Question</mat-card-subtitle>    
+        <mat-card-content>
+            <mat-form-field  appearance="fill"  style="width: 100%;">
+                <!-- <mat-label>Question</mat-label>              -->
+                <textarea matInput placeholder="" formControlName="question" ></textarea>    
+            </mat-form-field>         
+        </mat-card-content>
+        <mat-divider inset></mat-divider>
+        <mat-card-actions>
+          <button mat-button (click)="create()">SAVE</button>
+          <button mat-button (click)="close()">CANCEL</button>
+        </mat-card-actions>
+        <mat-card-footer>      
+        </mat-card-footer>
+    </mat-card>
+</form>
